@@ -1,5 +1,5 @@
 # gcs-transfer-to-backblaze
-This module transfer a publicly available GCS content into Backblaze.
+This module transfer a publicly available GCS content into Backblaze. Created by the makers of [Republic Labs AI](https://republiclabs.ai) 
 
 # Requirements
 - You need a publicly accessible Google Cloud Storage (GCS) url
