@@ -14,7 +14,9 @@ In your code:
 ``
 import {gcs2backblazeb2} from "gcs-transfer-to-backblaze"
 ``
+
 or 
+
 ``
 const {gcs2backblazeb2} = require(gcs-transfer-to-backblaze) 
 ``
