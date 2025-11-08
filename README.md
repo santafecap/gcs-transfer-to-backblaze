@@ -44,4 +44,4 @@ b2_region: your Backblaze B2 region
 
 ## Return response
 - Returns true if the operation is sucessful 
-- Returns false if the oepration failed
+- Returns false if the operation failed
