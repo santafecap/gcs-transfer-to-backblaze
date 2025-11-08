@@ -24,17 +24,17 @@ const {gcs2backblazeb2} = require(gcs-transfer-to-backblaze)
 then, simply call the function with the required parameters: `gcs2backblazeb2(url, b2_bucket, b2_endpoint, b2_region)`
 
 ``
-**url**: the publicly accessible GCS url	
+url: the publicly accessible GCS url	
 ``
 
 ``
-**b2_bucket**: your Backblaze B2 bucket	
+b2_bucket: your Backblaze B2 bucket	
 ``
 
 ``
-**b2_endpoint**: your Backblaze B2 endpoint	
+b2_endpoint: your Backblaze B2 endpoint	
 ``
 
 ``
-**b2_region**: your Backblaze B2 region	
+b2_region: your Backblaze B2 region	
 ``
