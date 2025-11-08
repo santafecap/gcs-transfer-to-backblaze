@@ -3,7 +3,7 @@ const { S3Client } = require("@aws-sdk/client-s3");
 const { Upload } = require("@aws-sdk/lib-storage");
 
 
-function gcs2backblazeb2(url, b2_bucket, b2_endpoint, b2_region) {
+async function gcs2backblazeb2(url, b2_bucket, b2_endpoint, b2_region) {
 
     // Creates a client for GCS
     const storage = new Storage();
@@ -46,11 +46,10 @@ function gcs2backblazeb2(url, b2_bucket, b2_endpoint, b2_region) {
       });
       await upload.done();
 
-      res.json({msg: "Complete transfer of content"});
-
+      return true;
     }
     else {
-      res.json({msg: "File does not exist"});
+      return false;
     }
 
 }
